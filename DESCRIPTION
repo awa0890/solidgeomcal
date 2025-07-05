@@ -1,0 +1,16 @@
+Package: geomcal
+Type: Package
+Title: Calculations for solid geometry figures
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Andreas", "Wallner",
+      email = "Andreas.Wallner@campus.lmu.de",
+      role = c("aut", "cre")
+    )
+  )
+Description: The package calculates key figures for the solid geometry figures cones, spheres and cylinders. 
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
