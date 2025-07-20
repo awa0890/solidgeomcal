@@ -9,7 +9,7 @@ Authors@R: c(
       role = c("aut", "cre")
     )
   )
-Description: The package calculates key figures for the solid geometry figures cones, spheres and cylinders. 
+Description: The package calculates key figures for the solid geometry figures cones, spheres and cylinders. The User can select the unit for the inputs. The Output will always be calculated in millimeters.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true

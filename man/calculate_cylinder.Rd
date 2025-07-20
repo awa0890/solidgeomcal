@@ -4,20 +4,22 @@
 \alias{calculate_cylinder}
 \title{Solid Geometry Calculator for cylinders}
 \usage{
-calculate_cylinder(radius_mm, height_mm)
+calculate_cylinder(radius, height, unit = "mm")
 }
 \arguments{
-\item{radius_mm}{The radius of the cylinder in millimeters.}
+\item{radius}{The radius of the cylinder in millimeters.}
 
-\item{height_mm}{The height of the cylinder in millimeters.}
+\item{height}{The height of the cylinder in millimeters.}
+
+\item{unit}{The unit in which the key figures should be calculated. The User can select the input unit between millimeter ("mm"), centimeter ("cm") and meter ("m").}
 }
 \value{
-Prints the diameter, scope, base area, lateral surface, surface and the volume of a cylinder for the inputs radius_mm und height_mm
+Prints the diameter, scope, base area, lateral surface, surface and the volume of a cylinder for the inputs radius and height in the selected unit millimeter mm, centimeter cm or meter m.
 }
 \description{
 Compute some key figures for a cylinder
 }
 \examples{
-calculate_cylinder(radius_mm=50, height_mm=20)
+calculate_cylinder(radius=50, height=20, unit = "mm")
 
 }

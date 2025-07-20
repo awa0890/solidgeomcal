@@ -4,17 +4,17 @@
 \alias{calculate_sphere}
 \title{Solid Geometry Calculator for spheres}
 \usage{
-calculate_sphere(radius_mm)
+calculate_sphere(radius, unit = "mm")
 }
 \arguments{
-\item{radius_mm}{The radius of the sphere in millimeters.}
+\item{radius}{The radius of the sphere in millimeters. The User can select the input unit between millimeter ("mm"), centimeter ("cm") and meter ("m").}
 }
 \value{
-Prints the diameter, scope, circular area, surface and the volume of a sphere for the input radius_mm
+Prints the diameter, scope, circular area, surface and the volume of a sphere for the input radius in the selected unit millimeter mm, centimeter cm or meter m.
 }
 \description{
 Compute some key figures for a sphere
 }
 \examples{
-calculate_sphere(radius_mm=1.4)
+calculate_sphere(radius=1.4, unit = "mm")
 }

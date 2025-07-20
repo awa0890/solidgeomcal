@@ -4,19 +4,21 @@
 \alias{calculate_cone}
 \title{Solid Geometry Calculator for cones}
 \usage{
-calculate_cone(radius_mm, height_mm)
+calculate_cone(radius, height, unit = "mm")
 }
 \arguments{
-\item{radius_mm}{The radius of the cone in millimeters.}
+\item{radius}{The radius of the cone.}
 
-\item{height_mm}{The height of the cone in millimeters.}
+\item{height}{The height of the cone.}
+
+\item{unit}{The unit in which the key figures should be calculated. The User can select the input unit between millimeter ("mm"), centimeter ("cm") and meter ("m").}
 }
 \value{
-Prints the diameter, scope, base area, line surface, lateral surface, surface and the volume of a cone for the inputs radius_mm und height_mm
+Prints the diameter, scope, base area, line surface, lateral surface, surface and the volume of a cone for the inputs radius and height in the selected unit millimeter mm, centimeter cm or meter m.
 }
 \description{
 Compute some key figures for a cone
 }
 \examples{
-calculate_cone(radius_mm=50, height_mm=20)
+calculate_cone(radius=50, height=20, unit = "mm")
 }
